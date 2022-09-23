@@ -1,0 +1,35 @@
+.image {
+    transform: scale(1);
+    width: 50vw;
+    max-width: 16vw;
+    aspect-ratio: 1 / 1;
+}
+
+.image::after {
+    /* background-image: url('../../assets/self-portrait-2.jpeg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    content: '';
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    position: absolute;
+    /* background-color: red; */
+    top: 0;
+    left: 0;
+    border-radius: 2vw;
+    border: solid 1px #313131;
+}
+
+.image-border {
+    z-index: -1;
+    content: '';
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    border: solid 1px #313131;
+    border-radius: 2vw;
+    /* background-color: red; */
+}

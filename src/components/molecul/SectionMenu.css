@@ -1,0 +1,12 @@
+.container .section-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+}
+
+.activeMenu {
+    color: rgba(49, 49, 49, 1) !important;
+    text-shadow: none !important;
+    font-size: 96pt;
+}

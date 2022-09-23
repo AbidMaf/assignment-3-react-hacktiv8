@@ -1,0 +1,14 @@
+.design-item {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+.design-item>h3 {
+    display: inline-block !important;
+    width: fit-content;
+    align-self: flex-start;
+}

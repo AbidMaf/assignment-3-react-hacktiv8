@@ -1,0 +1,61 @@
+.container {
+    height: 100vh;
+    padding: 0 95px;
+    margin: 70px 0 0 0px;
+    padding-top: 70px;
+    color: var(--txtclr);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.container>div {
+    width: 50%;
+}
+
+.container .desc-section {
+    text-align: justify;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: .7s linear;
+}
+
+.container .desc-section .about-desc {
+    max-width: 876px;
+}
+
+.about-desc {
+    font-size: 1.6rem;
+    line-height: 1.4em;
+}
+
+.container .desc-section .skills-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    transition: 0.5s;
+}
+
+.container .desc-section .skills-list .skill>h3 {
+    font-size: 30pt;
+}
+
+.interest-section {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.interest-section>span {
+    font-size: 16pt;
+}
+
+.interest-section>h1 {
+    text-align: left;
+    line-height: 1.3em;
+    font-size: 24pt;
+}
